@@ -1,6 +1,11 @@
-## Welcome to GitHub Pages
+## lewisfromlewis
 
-You can use the [editor on GitHub](https://github.com/lewisfromlewis/lewisfromlewis.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+So.
+We are organising a conference on the 17th and 18th of July 2019 aimed at trainees in any of the Federally funded Specialty Training Programmes, and their supervisors. This mawky beginning might just hide the beginnings of something new and exciting: the STP jobs include some remote, low tech and high quality jobs, and they are crazily unconnected.  This is crying out for a ...
+
+### community!
+The name of the conference is "Never Alone" because the people working in these jobis might not always realise how completely the Australian public are behind them, how much they are prized and how many people want them to succeed, to be comfortable and to stay. 
+[editor on GitHub](https://github.com/lewisfromlewis/lewisfromlewis.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
