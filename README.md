@@ -1,42 +1,14 @@
 ## lewisfromlewis
+I am an Intensive Care specialist and hopeful learner based in Darwin. I'm originally from Scotland - can you guess where? -and I still have heartfelt and sustaining personal and professional links there.
 
+### What I'm working on
+After some hopeful and useful but externally unconvincing years of learning the tools necessary for reproducible biomedical research I hope that this coming birth year will see me finishing my MSc (Epidemiology) from the London School, my DDU (Critical Care) from the Australian Society of Ultrasound in Medicine and progressing or completing some projects which have been gestating a while. While I've been working on the fundamentals I've picked up jobs as a Senior Lecturer in Medicine at Flinders University, Honorary Clinical Fellow and Chair of the Human Research Ethics Committee at Menzies School of Health Research and various representative positions on behalf of the Northern Territory on national forums (Clinical Trials Project Reference Group, National Mutual Acceptance of Ethics and Governance Jurisdictional Working Group).
+
+The most exciting of these is a collaboration with [Kenny Baillie]{http://baillielab.net} and the team at the Roslin Institute to use molecular techniques in explaining the results of A2B, a large clinical trial on $\alpha$2-agonists led by [Tim Walsh]{https://www.ed.ac.uk/clinical-sciences/divisionpgdi/anaesthesia/team-members/researchers/professor-tim-walsh}.
+
+## Remote or austere critical care
 So.
-We are organising a conference on the 17th and 18th of July 2019 aimed at trainees in any of the Federally funded Specialty Training Programmes, and their supervisors. This mawky beginning might just hide the beginnings of something new and exciting: the STP jobs include some remote, low tech and high quality jobs, and they are crazily unconnected.  This is crying out for a ...
+As the Chair of the NT Regional Committee I am organising a conference on the 17th and 18th of July 2019 aimed at trainees in any of the Federally funded Specialty Training Programmes, and their supervisors. This mawky beginning might just hide the beginnings of something new and exciting: the STP jobs include some remote, low tech and high quality jobs, and they are crazily unconnected.  This is crying out for a ...
 
 ### community!
-The name of the conference is "Never Alone" because the people working in these jobis might not always realise how completely the Australian public are behind them, how much they are prized and how many people want them to succeed, to be comfortable and to stay. 
-[editor on GitHub](https://github.com/lewisfromlewis/lewisfromlewis.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lewisfromlewis/lewisfromlewis.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The name of the conference is "Never Alone" because the people working in these jobs might not always realise how completely the Australian public are behind them, how much they are prized and how many people want them to succeed, to be comfortable and to stay. As a corrective to the prevailing white male middle aged speakers, I aim to have every speaker come from other backgrounds and thereby to have a vibrant, exciting conference using hard science and clinical reasoning to explain why soft skills and a kind life is needed to stitch the bush back together.
