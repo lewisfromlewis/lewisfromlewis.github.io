@@ -66,7 +66,11 @@ ARDS is a condition dear to the heart of Intensive Care Medicine
 
 - We saw it first, we caused most of it and now we treat it all
 - The first trials of pragmatic "housekeeping" were in ARDS
-- We have improved outcomes
+- A marker of severity
+- A consequence of survival
+- A target of therapy
+- A statistical envelope
+- A diagnosis?
 
 ## ARDS
 Berlin definition
@@ -89,6 +93,7 @@ populations.
 - Initiated by inflammation
 >- yes, I know that's not very specific
 
+
 ## ARDS
 - Explain the contributors to the gradient in oxygen tension between inhaled gas and mitochondria?  Where are these altered in ARDS?
 - What are the airflow abnormalities in ARDS? How are lung volumes altered?
@@ -96,7 +101,36 @@ populations.
 - What is compliance?  When is it measured?  How is it changed in ARDS?
 - What is the relevance of the Bohr equation to ARDS?
 
+## ARDS {.smaller}
+"ARDS is a sign of mental deficiency"
+-Bacterial pneumonia
+-Viral pneumonia
+-Infections outside of the lungs
+-Smoke inhalation
+-Burns
+-Near drowning
+-Diabetic ketoacidosis
+-Pregnancy
+-Eclampsia
+-Amniotic fluid embolus
+-Drugs - paraquat, heroin, aspirin
+-Acute pancreatitis
+-Disseminated intravascular coagulation (DIC)
+-Head injury/raised intracranial pressure (ICP)
+-Fat emboli
+-Transfusions of blood products
+-Heart/lung bypass
+-Tumour lysis syndrome
+-Pulmonary contusion
 
 ## Emphysema
 - A condition of high compliance and high resistance
 >- Which means low elastance and low conductance
+- A genetically predisposed, physically initiated insult to the mature lung
+- 5 to 40% prevalent depending on exposures
+- Lung tissue destruction
+
+## Emphysema
+- Compare with ARDS:
+- what is the time constant and how does it differ?
+- 
