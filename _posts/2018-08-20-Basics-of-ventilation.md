@@ -30,6 +30,7 @@ doing any avoidable damage to the most vulnerable patients in the hospital?
 - Peak pressure 35 cmH2O or lower
 - PEEP for everyone, no ZEEP
 - Sedation titrated to the patient
+- Prone early
 - No staircase recruitment
 - No oscillator in ARDS
 - Think of overinflation, gas trapping, collapse and atelectrauma
@@ -90,9 +91,10 @@ populations.
 
 ## ARDS
 - Diffuse condition, affecting only some parts of the lung
-- Initiated by inflammation
->- yes, I know that's not very specific
-
+- All sorts of inhomogeneities
+>- which are not solved by PEEP
+- dead space, compliance, resistance
+- stress riser
 
 ## ARDS
 - Explain the contributors to the gradient in oxygen tension between inhaled gas and mitochondria?  Where are these altered in ARDS?
@@ -124,6 +126,12 @@ populations.
 -Pulmonary contusion
 
 ## Emphysema
+I am talking bout emphysema rather than COPD, for contrast
+- How do you diagnose COPD?
+- How do you diagnose COPD severity?
+- How do you treat COPD?
+
+## Emphysema
 - A condition of high compliance and high resistance
 >- Which means low elastance and low conductance
 - A genetically predisposed, physically initiated insult to the mature lung
@@ -131,6 +139,54 @@ populations.
 - Lung tissue destruction
 
 ## Emphysema
-- Compare with ARDS:
+Compare with ARDS:
 - what is the time constant and how does it differ?
-- 
+- Are there reasons for different prescriptions of ventilation?
+- Is the prognosis the same for a given APACHE IIIJ score?
+
+## Emphysema
+- Allow expiration
+- Limit plateau pressure rather than peak
+- Tolerate larger tidal volume
+- Maybe tolerate even higher CO2
+- Give PEEP
+- Think about gas trapping
+
+## Asthma
+Often lumped in with COPD because most people are pretty lazy with diagnoses
+- A syndrome with few variants
+- reversible, responds to treatment, parenchyma often normal
+- Life expectancy is normal
+
+## Asthma
+- Terrifying responsibility
+- Burden of expectation
+- Quite difficult
+- Wisdom issue
+
+## Asthma
+Basic questions
+- How do you diagnose asthma?
+- How do you grade and prognosticate?
+
+## Asthma
+Expert questions
+- How do you decide treatments for an uncommon disease?
+- When do you refer for outside assistance?
+
+## Asthma
+- Measure and limit plateau pressure
+- Tolerate CO2 and possibly O2 alterations
+- Allow expiration
+- Don't be afraid of ventilators, be afraid of ventilators started too late
+
+## Pneumonia
+Basic questions
+- Grade pneumonia severity
+- What are the treatments?
+
+## Pneumonia
+Expert questions
+- Are there further severity indicators?
+- How do you treat it and what are the subtleties?
+- When do you refer for ECMO?
