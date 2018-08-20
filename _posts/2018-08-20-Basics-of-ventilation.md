@@ -35,8 +35,7 @@ doing any avoidable damage to the most vulnerable patients in the hospital?
 - No oscillator in ARDS
 - Think of overinflation, gas trapping, collapse and atelectrauma
 
-## How not to kill people with ventilators
-Don't use them unless they're needed.  Duh.
+## How not to kill people with ventilators | Don't use them unless they're needed.  Duh.
 - Don't view it as an end in itself
 - Always project:
 - Recognise your fear and listen to it
@@ -61,6 +60,36 @@ There are some safety tips
 
 # General principles
 Physiology, medicine, uncertainty and compassion
+
+## Physiology
+- Ventilators are used to supply oxygen and remove CO2 for less work by the patient
+- The simplest way to view it is the most important
+
+## Physiology | Oxygen
+
+- Extra oxygen overcomes VQ mismatch
+- It cannot correct for shunt
+- Too much oxygen might be harmful, who knows
+
+## Physiology | Oxygen
+
+- How do you increase mixed venous O2 saturation?
+- How do you decrease shunt flow?
+- How do you decrease shunt fraction?
+
+## Physiology | Carbon dioxide
+
+- Minute ventilation is VT * RR
+- Dead space is the volume of each breath not engaging in gas exchange
+- It correlates with severity in most lung disease
+- How and where in the lung can dead space happen?
+- What is a normal tidal volume?
+
+## Physiology | Carbon dioxide
+
+- What does carbon dioxide do to lungs?
+- What does it do to the rest of the body?
+- 
 
 # Special circumstances
 ARDS
@@ -96,7 +125,10 @@ Berlin definition
 
 ## ARDS
 The pathway to treating ARDS well represents science used for clinical
-practice. There are few better examples of responsible academic medicine.
+practice.
+
+There are few better examples of responsible academic medicine.
+
 Sadly this is because it was a military condition largely affecting well-off
 populations.
 
@@ -223,3 +255,14 @@ Expert questions
 - Blood patches
 - ICC delivered talcum powder
 - Surgical talcum
+- Staples, glue, pericardial patch, resection
+
+## Summary
+- Tidal volume 6 ml/kg ideal body weight
+- therefore tolerate <55mmHg PaCO2
+- Peak pressure 35 cmH2O or lower
+- PEEP for everyone, no ZEEP
+- Sedation titrated to the patient
+- Prone early
+- No staircase recruitment, no oscillators
+- Think of overinflation, gas trapping, collapse and atelectrauma
