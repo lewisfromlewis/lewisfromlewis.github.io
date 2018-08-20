@@ -43,9 +43,12 @@ Don't use them unless they're needed.  Duh.
 
 # Why would you get into this anyway?
 Indications, evidence and practice
-- It is a solution, not a problem, a state or a result
-- It's a physiologically justified intervention
-- There are some safety tips
+
+It is a solution, not a problem, a state or a result
+
+It's a physiologically justified intervention
+
+There are some safety tips
 
 ## Expert questions
 - How do assess the relative contribution of organ system failures?
@@ -60,7 +63,15 @@ Indications, evidence and practice
 Physiology, medicine, uncertainty and compassion
 
 # Special circumstances
-ARDS, emphysema, asthma, pneumonia, Bronchopleural fistula
+ARDS
+
+emphysema
+
+asthma
+
+pneumonia
+
+Bronchopleural fistula
 
 ## ARDS
 ARDS is a condition dear to the heart of Intensive Care Medicine
@@ -96,7 +107,7 @@ populations.
 - dead space, compliance, resistance
 - stress raiser
 
-## ARDS | Stress raiser
+## ARDS
 ![Four different patients; Blue <1.6, Red >3](stressraiser.jpg)
 
 
@@ -194,3 +205,21 @@ Expert questions
 - Are there further severity indicators?
 - How do you treat it and what are the subtleties?
 - When do you refer for ECMO?
+
+## Pneumonia
+- Prone-type strategy
+- Match V:Q with good lung down
+- Be patient
+- Remember sepsis and supply:demand
+
+## Bronchopleural fistula
+- Mean pressure counts
+- Diagnose, define and plan
+- Minimal intervention
+- Patience
+
+## Bronchopleural fistula
+- Bronchial valves
+- Blood patches
+- ICC delivered talcum powder
+- Surgical talcum
