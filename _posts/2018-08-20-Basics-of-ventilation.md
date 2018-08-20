@@ -94,7 +94,11 @@ populations.
 - All sorts of inhomogeneities
 >- which are not solved by PEEP
 - dead space, compliance, resistance
-- stress riser
+- stress raiser
+
+## ARDS | Stress raiser
+![Four different patients; Blue <1.6, Red >3](stressraiser.jpg)
+
 
 ## ARDS
 - Explain the contributors to the gradient in oxygen tension between inhaled gas and mitochondria?  Where are these altered in ARDS?
