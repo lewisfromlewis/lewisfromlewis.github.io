@@ -1,0 +1,9 @@
+---
+layout:default
+title:Tidy Audits
+---
+<h1>Tidy Audits</h1>
+<p>We have just started a programme of audits with clear input and output, and a plan for the interpretation of the data.  This is a big job so give me a sec!</p>
+<div class="post">
+  {{ content }}
+</div>
