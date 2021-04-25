@@ -1,0 +1,38 @@
+body {
+    background-color: #f5fffa;
+    margin: 60px auto;
+    width: 70%;
+}
+
+a {
+    text-decoration: none;
+    color: #126e82;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 4px;
+  border-color: grey;
+  width: 6%;
+}
+
+h1 {
+    color: #66bfbf;
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+h3{
+  color: #66bfbf;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
