@@ -1,6 +1,6 @@
 body {
     background-color: #f5fffa;
-    margin: 60px auto;
+    margin: 0;
     width: 70%;
 }
 
@@ -20,6 +20,38 @@ hr {
   width: 6%;
 }
 
+.top-box {
+  width:140px;
+  height:140px;
+  border:10px;
+  border-color: black;
+  border-style: solid;
+  padding: 20px;
+}
+
+.middle-box {
+  background-color: red;
+  width:140px;
+  height:140px;
+  border:20px;
+  padding:20px;
+  border-color: black;
+  border-style: solid;
+  margin-left: 200px;
+  }
+
+.lower-box {
+  background-color: yellow;
+  width:160px;
+  height:160px;
+  border:10px;
+  padding:20px;
+  border-color: black;
+  border-style: solid;
+  margin-left: 420px;
+}
+
+
 h1 {
     color: #66bfbf;
     font-size: 3em;
@@ -35,4 +67,5 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
+    margin:0;
 }
