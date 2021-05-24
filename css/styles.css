@@ -1,15 +1,18 @@
 body {
     text-align: center;
+    color: #40514E;
     background-color: #f5fffa;
-    margin: 10px 20px 40px 20px;
+    margin: 0px;
 }
 
 a {
+    margin: 0 10px;
     text-decoration: none;
     color: #126e82;
 }
 
 a:hover {
+    color: #246B61;
     text-decoration: underline;
 }
 
@@ -17,6 +20,7 @@ hr {
   border-style: dotted none none none;
   border-width: 4px;
   border-color: grey;
+  margin: 40px auto;
   width: 6%;
 }
 
@@ -25,12 +29,12 @@ hr {
 }
 
 .sub-image{
-  float:left;
+  float:center;
 }
 
 .agenda-outline{
   margin: auto;
-  width: 40%;
+  width: 22%;
   padding: 20px;
 }
 
@@ -39,10 +43,11 @@ hr {
 }
 
 .contact-me{
+  font-size: 1.4em;
+  font-family: 'Montserrat', sans-serif;
   margin: auto;
-  width: 50%;
-  padding: 20px;
-  background-color: #66BFBF;
+  padding: 20px 60px 60px 40px;
+  background-color: #CCF6E4;
 }
 
 .top-placeholderbox {
@@ -76,9 +81,6 @@ hr {
   margin-left: 420px;
 }
 
-.bottom-container {
-
-}
 
 h1 {
     color: #66bfbf;
@@ -110,10 +112,10 @@ p {
    -moz-border-radius: 10px;
    border-radius: 10px;
    color: #FFFFFF;
-   font-family: Brush Script MT;
-   font-size: 1em;
+   font-family:'Montserrat', sans-serif;
+   font-size: 0.7em;
    font-weight: 100;
-   padding: 5px;
+   padding: 10px;
    -webkit-box-shadow: 1px 1px 10px 0 #000000;
    -moz-box-shadow: 1px 1px 10px 0 #000000;
    box-shadow: 1px 1px 10px 0 #000000;
