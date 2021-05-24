@@ -1,4 +1,5 @@
 body {
+    text-align: center;
     background-color: #f5fffa;
     margin: 0;
     width: 70%;
@@ -20,7 +21,7 @@ hr {
   width: 6%;
 }
 
-.top-box {
+.top-placeholderbox {
   width:140px;
   height:140px;
   border:10px;
@@ -29,7 +30,7 @@ hr {
   padding: 20px;
 }
 
-.middle-box {
+.middle-placeholderbox {
   background-color: red;
   width:140px;
   height:140px;
@@ -40,7 +41,7 @@ hr {
   margin-left: 200px;
   }
 
-.lower-box {
+.lower-placeholderbox {
   background-color: yellow;
   width:160px;
   height:160px;
@@ -51,16 +52,19 @@ hr {
   margin-left: 420px;
 }
 
+.bottom-container {
+
+}
 
 h1 {
     color: #66bfbf;
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Arial', 'Sans-Serif';
 }
 
 h3{
   color: #66bfbf;
-  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  font-family:'Arial', 'Sans-Serif';
 }
 
 p {
