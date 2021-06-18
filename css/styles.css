@@ -25,7 +25,14 @@ hr {
 }
 
 .head-list{
+  margin: auto;
   padding: 20px;
+  width: 22%;
+}
+
+.tablist{
+  text-align: left;
+  padding-left: 20px;
 }
 
 .sub-image{
