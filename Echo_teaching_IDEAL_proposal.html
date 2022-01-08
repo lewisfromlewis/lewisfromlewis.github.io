@@ -18,49 +18,83 @@
 
 
 <style type="text/css">
-  code{white-space: pre-wrap;}
-  span.smallcaps{font-variant: small-caps;}
-  span.underline{text-decoration: underline;}
-  div.column{display: inline-block; vertical-align: top; width: 50%;}
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-  ul.task-list{list-style: none;}
-    </style>
-
-<style type="text/css">code{white-space: pre;}</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  code {
+    white-space: pre-wrap;
   }
-}
+
+  span.smallcaps {
+    font-variant: small-caps;
+  }
+
+  span.underline {
+    text-decoration: underline;
+  }
+
+  div.column {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+  }
+
+  div.hanging-indent {
+    margin-left: 1.5em;
+    text-indent: -1.5em;
+  }
+
+  ul.task-list {
+    list-style: none;
+  }
+</style>
+
+<style type="text/css">
+  code {
+    white-space: pre;
+  }
+</style>
+<script type="text/javascript">
+  if (window.hljs) {
+    hljs.configure({
+      languages: []
+    });
+    hljs.initHighlightingOnLoad();
+    if (document.readyState && document.readyState === "complete") {
+      window.setTimeout(function() {
+        hljs.initHighlighting();
+      }, 0);
+    }
+  }
 </script>
 
 <style type="text/css">
-.main-container {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-}
-img {
-  max-width:100%;
-}
-.tabbed-pane {
-  padding-top: 12px;
-}
-.html-widget {
-  margin-bottom: 20px;
-}
-button.code-folding-btn:focus {
-  outline: none;
-}
-summary {
-  display: list-item;
-}
-pre code {
-  padding: 0;
-}
+  .main-container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .tabbed-pane {
+    padding-top: 12px;
+  }
+
+  .html-widget {
+    margin-bottom: 20px;
+  }
+
+  button.code-folding-btn:focus {
+    outline: none;
+  }
+
+  summary {
+    display: list-item;
+  }
+
+  pre code {
+    padding: 0;
+  }
 </style>
 
 
@@ -68,57 +102,57 @@ pre code {
 <!-- tabsets -->
 
 <style type="text/css">
-.tabset-dropdown > .nav-tabs {
-  display: inline-table;
-  max-height: 500px;
-  min-height: 44px;
-  overflow-y: auto;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
+  .tabset-dropdown>.nav-tabs {
+    display: inline-table;
+    max-height: 500px;
+    min-height: 44px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
+  .tabset-dropdown>.nav-tabs>li.active:before {
+    content: "";
+    font-family: 'Glyphicons Halflings';
+    display: inline-block;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+  }
 
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "";
-  border: none;
-}
+  .tabset-dropdown>.nav-tabs.nav-tabs-open>li.active:before {
+    content: "";
+    border: none;
+  }
 
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
+  .tabset-dropdown>.nav-tabs.nav-tabs-open:before {
+    content: "";
+    font-family: 'Glyphicons Halflings';
+    display: inline-block;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+  }
 
-.tabset-dropdown > .nav-tabs > li.active {
-  display: block;
-}
+  .tabset-dropdown>.nav-tabs>li.active {
+    display: block;
+  }
 
-.tabset-dropdown > .nav-tabs > li > a,
-.tabset-dropdown > .nav-tabs > li > a:focus,
-.tabset-dropdown > .nav-tabs > li > a:hover {
-  border: none;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: transparent;
-}
+  .tabset-dropdown>.nav-tabs>li>a,
+  .tabset-dropdown>.nav-tabs>li>a:focus,
+  .tabset-dropdown>.nav-tabs>li>a:hover {
+    border: none;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: transparent;
+  }
 
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
-  display: block;
-  float: none;
-}
+  .tabset-dropdown>.nav-tabs.nav-tabs-open>li {
+    display: block;
+    float: none;
+  }
 
-.tabset-dropdown > .nav-tabs > li {
-  display: none;
-}
+  .tabset-dropdown>.nav-tabs>li {
+    display: none;
+  }
 </style>
 
 <!-- code folding -->
@@ -126,65 +160,64 @@ pre code {
 
 
 <style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
+  #TOC {
+    margin: 25px 0px 20px 0px;
   }
-}
 
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
+  @media (max-width: 768px) {
+    #TOC {
+      position: relative;
+      width: 100%;
+    }
   }
-}
 
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
+  @media print {
+    .toc-content {
+      /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+      float: right;
+    }
+  }
 
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
+  .toc-content {
+    padding-left: 30px;
+    padding-right: 40px;
+  }
 
-.tocify .list-group-item {
-  border-radius: 0px;
-}
+  div.main-container {
+    max-width: 1200px;
+  }
 
+  div.tocify {
+    width: 20%;
+    max-width: 260px;
+    max-height: 85%;
+  }
 
+  @media (min-width: 768px) and (max-width: 991px) {
+    div.tocify {
+      width: 25%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    div.tocify {
+      width: 100%;
+      max-width: none;
+    }
+  }
+
+  .tocify ul,
+  .tocify li {
+    line-height: 20px;
+  }
+
+  .tocify-subheader .tocify-item {
+    font-size: 0.90em;
+  }
+
+  .tocify .list-group-item {
+    border-radius: 0px;
+  }
 </style>
 
 
@@ -194,215 +227,232 @@ div.tocify {
 <body>
 
 
-<div class="container-fluid main-container">
+  <div class="container-fluid main-container">
 
 
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-sm-12 col-md-4 col-lg-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
+    <!-- setup 3col/9col grid for toc_float and main content  -->
+    <div class="row">
+      <div class="col-sm-12 col-md-4 col-lg-3">
+        <div id="TOC" class="tocify">
+        </div>
+      </div>
 
-<div class="toc-content col-sm-12 col-md-8 col-lg-9">
-
-
-
-
-<div id="header">
+      <div class="toc-content col-sm-12 col-md-8 col-lg-9">
 
 
 
-<h1 class="title toc-ignore">Echo teaching proposal</h1>
-<h4 class="author">Lewis Campbell</h4>
-<h4 class="date">08/01/2022</h4>
 
-</div>
-
-
-<div id="echo" class="section level1" number="1">
-<h1><span class="header-section-number">1</span> Echo</h1>
-<div id="echocardiography-images" class="section level2" number="1.1">
-<h2><span class="header-section-number">1.1</span> Echocardiography: images</h2>
-<p>Echocardiography is the acquisition of appropriate ultrasound images (still and moving) to diagnose and classify the anatomy, physiology, and pathology of the cardiovascular system. Appropriately skilled echocardiographers will choose which images to obtain, and obtain the best quality possible for the situation, in the shortest time possible and with the least disruption possible to the patient. They will take measurements and process the images, and then take further images depending on the findings. This is a foundation skill for echocardiology, although good echocardiographers have far greater skills in the image acquisition, and often in the processing or physiological interpretation, than is needed for most clinical purposes.</p>
-</div>
-<div id="echocardiology-interpretation" class="section level2" number="1.2">
-<h2><span class="header-section-number">1.2</span> Echocardiology: interpretation</h2>
-<p>Echocardiology is the whole practice of requesting, interpreting, processing, reporting, and following up ultrasound images and cine loops of the heart, in the context of the whole patient. We aim to teach this.</p>
-</div>
-</div>
-<div id="teaching-needs" class="section level1" number="2">
-<h1><span class="header-section-number">2</span> Teaching needs</h1>
-<div id="learning-curve" class="section level2" number="2.1">
-<h2><span class="header-section-number">2.1</span> “Learning curve”</h2>
-<p>Allowing for different trajectories, in the right environment a practitioner should be able to acquire and interpret images for serious and easily diagnosed conditions within 50 scans. 250 scans should allow independent practice. Each scan takes around an hour (to acquire, measure, interpret, report), with 15 minutes for limited scans and 2 hours for detailed scans including changing physiology.</p>
-</div>
-<div id="required-structure-of-training" class="section level2" number="2.2">
-<h2><span class="header-section-number">2.2</span> Required structure of training</h2>
-<p>Because of the <a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>,
-- Everyone needs an initial one day course
-- Everyone needs at least 30 or 50 or 250 or 650 or 1000 scans, counted off with dates and basic or more involved details
-- Everyone needs to record their scans and review them
-- Most people like to see their progress and mentally everyone counts it off as a bar or badges in their head</p>
-</div>
-<div id="authorities" class="section level2" number="2.3">
-<h2><span class="header-section-number">2.3</span> Authorities</h2>
-<p>There is no one authority, and no single accepted “certification” or accreditation. The Australian government allows billing if the whole work unit has certain standards, and they record accreditation at the level of the ultrasound machine. Which is weird.
-- CICM is the College of Intensive Care Medicine. Every trainee needs to complete 30 scans to be an Intensivist.
-- ASUM is the Australasian Society of Ultrasound in Medicine. They have no curriculum and only a limited syllabus.
-- ASUM administer a sort of distributed qualification that needs a 1-day course, quick exam, and 50 scans, supervised by local mentors. This is the CCPU.
-- ASUM also run a well regarded, very difficult exam needing 2 years of training. This is the DDU, which has variants (650 scans including 450 echoes, and 200 other modalities for Critical Care Ultrasound; 1000 echoes for cardiology; and others).
-- NBE is the US National Boards of Echocardigraphy, and they have a detailed syllabus. They run a very hard exam (ASCeXAM) that can be done any time; if the exam is done as part of a US training scheme it is part of the accreditation for US practice. Otherwise it’s just a ticket that those in the know, know.
-- ASE, the American Society of Echo, do the actual teaching for NBE which releases white papers and standards, runs courses, and generally does all the things you’d expect. Those who have passed the ASCeXAM, and have other distinction in echo, can become a FASE, a Fellow of ASE (courtesy title, but the most respected qualification).
-- EDEC is the European Diploma of Echocardiology, an ICU-focused 250-scan qualification needing an initial course, mandatory course attendance weekly, and a final detailed exam that’s less hard than the DDU.</p>
-</div>
-</div>
-<div id="teaching-realities" class="section level1" number="3">
-<h1><span class="header-section-number">3</span> Teaching realities</h1>
-<div id="courses" class="section level2" number="3.1">
-<h2><span class="header-section-number">3.1</span> Courses</h2>
-<p>We can run about 4-6 courses a year, taking 3 specialists each time for a whole day. Each course can teach 15 people. We can fund most of that as Admin time but splitting off the IP is important. We charge AU100 each at the moment. Market rates would be up to AU1000, with significantly more bullshit (models, phantoms, nothing educationally different but more primped). I think our niche is to stay brass tacks and undercut hard (charge in the AU500 range) while also getting on the faculty of the fancier courses.</p>
-</div>
-<div id="proctoring" class="section level2" number="3.2">
-<h2><span class="header-section-number">3.2</span> Proctoring</h2>
-<p>It takes 10-15 minutes to review a scan with the learner. Each session should be an hour to include some teaching and to allow scheduling. Sometimes this is the only time the scans will be reported so the sessions should be scheduled weekly so that any unexpected findings can be followed up in good time.</p>
-</div>
-<div id="clinical-reporting" class="section level2" number="3.3">
-<h2><span class="header-section-number">3.3</span> Clinical reporting</h2>
-<p>This is not only part of teaching, but each scan should be reported within a day or two, and any teaching or clinical opportunities should be taken there and then.</p>
-</div>
-</div>
-<div id="recording-scans" class="section level1" number="4">
-<h1><span class="header-section-number">4</span> Recording scans</h1>
-<p>The learners should be enabled and encouraged to record all their scans as a portfolio and proof, and for their own future teaching.</p>
-<div id="deidentified" class="section level2" number="4.1">
-<h2><span class="header-section-number">4.1</span> Deidentified</h2>
-<p>No patient identifiers should be on the scans that the learners keep, yet they should be recoverable.</p>
-</div>
-<div id="protected-against-loss" class="section level2" number="4.2">
-<h2><span class="header-section-number">4.2</span> Protected against loss</h2>
-<p>We should not rely on portable storage media. That’s daft.</p>
-</div>
-<div id="protected-against-discovery" class="section level2" number="4.3">
-<h2><span class="header-section-number">4.3</span> Protected against discovery</h2>
-<p>The scans should also have a clear governance structure (who releases, who permits, how do we consent for uses other than personal practice audit, etc). I’m going to go out on a limb and say that there are no clear governance structures for the actual educational use of any personal healthcare information, so we should be arms length if possible. This is despite any solution we provide being several times more secure than the NT government equivalent, currently provided through a leaky contract with a private provider.</p>
-</div>
-<div id="structured" class="section level2" number="4.4">
-<h2><span class="header-section-number">4.4</span> Structured</h2>
-<p>The recordings should be able to retain a structured report or even, eventually, the whole DICOM archive format. The latter would be expensive as it would need an echocardiographer to map terms, the former pretty easy and we could do it ourselves.</p>
-</div>
-<div id="rapidly-retrievable" class="section level2" number="4.5">
-<h2><span class="header-section-number">4.5</span> Rapidly retrievable</h2>
-<p>The reports should always be instantly available. The images should be available within a few minutes.</p>
-</div>
-</div>
-<div id="availability" class="section level1" number="5">
-<h1><span class="header-section-number">5</span> Availability</h1>
-<p>There would be demand for a solution of this sort for learners. We could consider two tiers: one for reports which comes with the courses or has a small charge, say AU100, and one for the scans with an ongoing charge, say $20 yearly. These are made up fantasy numbers so they might be hugely smaller or a little larger, and the proportion may be different.</p>
-<div id="progress-bar" class="section level2" number="5.1">
-<h2><span class="header-section-number">5.1</span> Progress bar</h2>
-<p>We could set up a progress dashboard for each of the qualifications, as each scan would count against various requirements.</p>
-</div>
-<div id="reports-and-types" class="section level2" number="5.2">
-<h2><span class="header-section-number">5.2</span> Reports and types</h2>
-<p>Learners would want long term records of all their scans and this would be uncontroversial as it’s not personal information.</p>
-</div>
-<div id="pace-comparison" class="section level2" number="5.3">
-<h2><span class="header-section-number">5.3</span> Pace comparison</h2>
-<p>Learners might be more motivated if they see that others are making progress too?</p>
-</div>
-</div>
-<div class="footnotes">
-<hr />
-<ol>
-<li id="fn1"><p>Authorities<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
-</ol>
-</div>
+        <div id="header">
 
 
 
-</div>
-</div>
+          <h1 class="title toc-ignore">Echo teaching proposal</h1>
+          <h4 class="author">Lewis Campbell</h4>
+          <h4 class="date">08/01/2022</h4>
 
-</div>
-
-<script>
-
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
-});
+        </div>
 
 
-</script>
+        <div id="echo" class="section level1" number="1">
+          <h1><span class="header-section-number">1</span> Echo</h1>
+          <div id="echocardiography-images" class="section level2" number="1.1">
+            <h2><span class="header-section-number">1.1</span> Echocardiography: images</h2>
+            <p>Echocardiography is the acquisition of appropriate ultrasound images (still and moving) to diagnose and classify the anatomy, physiology, and pathology of the cardiovascular system. Appropriately skilled echocardiographers will choose
+              which images to obtain, and obtain the best quality possible for the situation, in the shortest time possible and with the least disruption possible to the patient. They will take measurements and process the images, and then take
+              further images depending on the findings. This is a foundation skill for echocardiology, although good echocardiographers have far greater skills in the image acquisition, and often in the processing or physiological interpretation,
+              than is needed for most clinical purposes.</p>
+          </div>
+          <div id="echocardiology-interpretation" class="section level2" number="1.2">
+            <h2><span class="header-section-number">1.2</span> Echocardiology: interpretation</h2>
+            <p>Echocardiology is the whole practice of requesting, interpreting, processing, reporting, and following up ultrasound images and cine loops of the heart, in the context of the whole patient. We aim to teach this.</p>
+          </div>
+        </div>
+        <div id="teaching-needs" class="section level1" number="2">
+          <h1><span class="header-section-number">2</span> Teaching needs</h1>
+          <div id="learning-curve" class="section level2" number="2.1">
+            <h2><span class="header-section-number">2.1</span> “Learning curve”</h2>
+            <p>Allowing for different trajectories, in the right environment a practitioner should be able to acquire and interpret images for serious and easily diagnosed conditions within 50 scans. 250 scans should allow independent practice. Each
+              scan takes around an hour (to acquire, measure, interpret, report), with 15 minutes for limited scans and 2 hours for detailed scans including changing physiology.</p>
+          </div>
+          <div id="required-structure-of-training" class="section level2" number="2.2">
+            <h2><span class="header-section-number">2.2</span> Required structure of training</h2>
+            <p>Because of the Authorities,</p>
+            <p>Everyone needs an initial one day course</p>
+            <p>Everyone needs at least 30 or 50 or 250 or 650 or 1000 scans, counted off with dates and basic or more involved details</p>
+            <p>Everyone needs to record their scans and review them</p>
+            <p>Most people like to see their progress and mentally everyone counts it off as a bar or badges in their head</p>
+          </div>
+          <div id="authorities" class="section level2" number="2.3">
+            <h2><span class="header-section-number">2.3</span> Authorities</h2>
+            <p>There is no one authority, and no single accepted “certification” or accreditation. The Australian government allows billing if the whole work unit has certain standards, and they record accreditation at the level of the ultrasound
+              machine. Which is weird.</p>
+            <ul>
+              <li>CICM is the College of Intensive Care Medicine. Every trainee needs to complete 30 scans to be an Intensivist.</li>
+              <li>ASUM is the Australasian Society of Ultrasound in Medicine. They have no curriculum and only a limited syllabus.</li>
+              <li>ASUM administer a sort of distributed qualification that needs a 1-day course, quick exam, and 50 scans, supervised by local mentors. This is the CCPU.</li>
+              <li>ASUM also run a well regarded, very difficult exam needing 2 years of training. This is the DDU, which has variants (650 scans including 450 echoes, and 200 other modalities for Critical Care Ultrasound; 1000 echoes for cardiology;
+                and others).</li>
+              <li>NBE is the US National Boards of Echocardigraphy, and they have a detailed syllabus. They run a very hard exam (ASCeXAM) that can be done any time; if the exam is done as part of a US training scheme it is part of the accreditation
+                for US practice. Otherwise it’s just a ticket that those in the know, know.</li>
+              <li>ASE, the American Society of Echo, do the actual teaching for NBE which releases white papers and standards, runs courses, and generally does all the things you’d expect. Those who have passed the ASCeXAM, and have other distinction
+                in echo, can become a FASE, a Fellow of ASE (courtesy title, but the most respected qualification).</li>
+              <li>EDEC is the European Diploma of Echocardiology, an ICU-focused 250-scan qualification needing an initial course, mandatory course attendance weekly, and a final detailed exam that’s less hard than the DDU.</li>
+            </ul>
+          </div>
+        </div>
+        <div id="teaching-realities" class="section level1" number="3">
+          <h1><span class="header-section-number">3</span> Teaching realities</h1>
+          <div id="courses" class="section level2" number="3.1">
+            <h2><span class="header-section-number">3.1</span> Courses</h2>
+            <p>We can run about 4-6 courses a year, taking 3 specialists each time for a whole day. Each course can teach 15 people. We can fund most of that as Admin time but splitting off the IP is important. We charge AU100 each at the moment.
+              Market rates would be up to AU1000, with significantly more bullshit (models, phantoms, nothing educationally different but more primped). I think our niche is to stay brass tacks and undercut hard (charge in the AU500 range) while also
+              getting on the faculty of the fancier courses.</p>
+          </div>
+          <div id="proctoring" class="section level2" number="3.2">
+            <h2><span class="header-section-number">3.2</span> Proctoring</h2>
+            <p>It takes 10-15 minutes to review a scan with the learner. Each session should be an hour to include some teaching and to allow scheduling. Sometimes this is the only time the scans will be reported so the sessions should be scheduled
+              weekly so that any unexpected findings can be followed up in good time.</p>
+          </div>
+          <div id="clinical-reporting" class="section level2" number="3.3">
+            <h2><span class="header-section-number">3.3</span> Clinical reporting</h2>
+            <p>This is not only part of teaching, but each scan should be reported within a day or two, and any teaching or clinical opportunities should be taken there and then.</p>
+          </div>
+        </div>
+        <div id="recording-scans" class="section level1" number="4">
+          <h1><span class="header-section-number">4</span> Recording scans</h1>
+          <p>The learners should be enabled and encouraged to record all their scans as a portfolio and proof, and for their own future teaching.</p>
+          <div id="deidentified" class="section level2" number="4.1">
+            <h2><span class="header-section-number">4.1</span> Deidentified</h2>
+            <p>No patient identifiers should be on the scans that the learners keep, yet they should be recoverable.</p>
+          </div>
+          <div id="protected-against-loss" class="section level2" number="4.2">
+            <h2><span class="header-section-number">4.2</span> Protected against loss</h2>
+            <p>We should not rely on portable storage media. That’s daft.</p>
+          </div>
+          <div id="protected-against-discovery" class="section level2" number="4.3">
+            <h2><span class="header-section-number">4.3</span> Protected against discovery</h2>
+            <p>The scans should also have a clear governance structure (who releases, who permits, how do we consent for uses other than personal practice audit, etc). I’m going to go out on a limb and say that there are no clear governance
+              structures for the actual educational use of any personal healthcare information, so we should be arms length if possible. This is despite any solution we provide being several times more secure than the NT government equivalent,
+              currently provided through a leaky contract with a private provider.</p>
+          </div>
+          <div id="structured" class="section level2" number="4.4">
+            <h2><span class="header-section-number">4.4</span> Structured</h2>
+            <p>The recordings should be able to retain a structured report or even, eventually, the whole DICOM archive format. The latter would be expensive as it would need an echocardiographer to map terms, the former pretty easy and we could do
+              it ourselves.</p>
+          </div>
+          <div id="rapidly-retrievable" class="section level2" number="4.5">
+            <h2><span class="header-section-number">4.5</span> Rapidly retrievable</h2>
+            <p>The reports should always be instantly available. The images should be available within a few minutes.</p>
+          </div>
+        </div>
+        <div id="availability" class="section level1" number="5">
+          <h1><span class="header-section-number">5</span> Availability</h1>
+          <p>There would be demand for a solution of this sort for learners. We could consider two tiers: one for reports which comes with the courses or has a small charge, say AU100, and one for the scans with an ongoing charge, say $20 yearly.
+            These are made up fantasy numbers so they might be hugely smaller or a little larger, and the proportion may be different.</p>
+          <div id="progress-bar" class="section level2" number="5.1">
+            <h2><span class="header-section-number">5.1</span> Progress bar</h2>
+            <p>We could set up a progress dashboard for each of the qualifications, as each scan would count against various requirements.</p>
+          </div>
+          <div id="reports-and-types" class="section level2" number="5.2">
+            <h2><span class="header-section-number">5.2</span> Reports and types</h2>
+            <p>Learners would want long term records of all their scans and this would be uncontroversial as it’s not personal information.</p>
+          </div>
+          <div id="pace-comparison" class="section level2" number="5.3">
+            <h2><span class="header-section-number">5.3</span> Pace comparison</h2>
+            <p>Learners might be more motivated if they see that others are making progress too?</p>
+          </div>
+        </div>
+        <div class="footnotes">
+          <hr />
+          <ol>
+            <li id="fn1">
+              <p>Authorities<a href="#fnref1" class="footnote-back">↩︎</a></p>
+            </li>
+          </ol>
+        </div>
 
-<!-- tabsets -->
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
 
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open');
-  });
-});
-</script>
+      </div>
+    </div>
 
-<!-- code folding -->
+  </div>
 
-<script>
-$(document).ready(function ()  {
+  <script>
+    // add bootstrap table styles to pandoc tables
+    function bootstrapStylePandocTables() {
+      $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+    }
+    $(document).ready(function() {
+      bootstrapStylePandocTables();
+    });
+  </script>
 
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
+  <!-- tabsets -->
+
+  <script>
+    $(document).ready(function() {
+      window.buildTabsets("TOC");
+    });
+
+    $(document).ready(function() {
+      $('.tabset-dropdown > .nav-tabs > li').click(function() {
+        $(this).parent().toggleClass('nav-tabs-open');
+      });
+    });
+  </script>
+
+  <!-- code folding -->
+
+  <script>
+    $(document).ready(function() {
+
+      // move toc-ignore selectors from section div to header
+      $('div.section.toc-ignore')
         .removeClass('toc-ignore')
         .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
 
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
+      // establish options
+      var options = {
+        selectors: "h1,h2,h3",
+        theme: "bootstrap3",
+        context: '.toc-content',
+        hashGenerator: function(text) {
+          return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+        },
+        ignoreSelector: ".toc-ignore",
+        scrollTo: 0
+      };
+      options.showAndHide = true;
+      options.smoothScroll = true;
 
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
+      // tocify
+      var toc = $("#TOC").tocify(options).data("toc-tocify");
+    });
+  </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function() {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
 
-<hr>
+  <hr>
 
-<div class="contact-me">
-  <p>
-    <a href="Contact.html" class="BUTTON_QMI">Contacts and links</a>
-  </p>
-  <a class="footer-link" href="https://lewisfromlewis.wordpress.com" target="_blank">blog</a>
-  <a class="footer-link" href="https://github.com/lewisfromlewis/" target="_blank">github</a>
-  <a class="footer-link" mailto="lewis.campbell@gmail.com">email</a>
-  <a class="footer-link" href="https://twitter.com/Lewisfromlewis">twitter</a>
-</div>
+  <div class="contact-me">
+    <p>
+      <a href="Contact.html" class="BUTTON_QMI">Contacts and links</a>
+    </p>
+    <a class="footer-link" href="https://lewisfromlewis.wordpress.com" target="_blank">blog</a>
+    <a class="footer-link" href="https://github.com/lewisfromlewis/" target="_blank">github</a>
+    <a class="footer-link" mailto="lewis.campbell@gmail.com">email</a>
+    <a class="footer-link" href="https://twitter.com/Lewisfromlewis">twitter</a>
+  </div>
 
 </body>
+
 </html>
