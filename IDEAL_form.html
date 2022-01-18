@@ -1,0 +1,86 @@
+<!doctype html>
+<!-- Template from https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+    <!-- Main form -->
+  <div class="card">
+    <div class="card-body">
+    <h2>Register your interest in an IDEAL course</h2>
+    <form method="POST">
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email"  placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="name" class="form-control" id="name"  placeholder="Your name">
+      </div>
+
+      <div class="form-group">
+        <label for="course">Which course are you enquiring about?</label>
+        <input type="name" class="form-control" id="message"  placeholder="eg Darwin BELS February 2022">
+      </div>
+
+      <h4 id="response"></h4>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    </div>
+  </div>
+
+  <script>
+    (() => {
+      const form = document.querySelector('form');
+      const submitResponse = document.querySelector('#response');
+      const formURL = 'https://y42jf4x480.execute-api.ap-southeast-2.amazonaws.com/Prod/submitForm';
+
+      form.onsubmit = e => {
+        e.preventDefault();
+
+        // Capture the form data
+        let data = {};
+        Array.from(form).map(input => (data[input.id] = input.value));
+        console.log('Sending: ', JSON.stringify(data));
+        submitResponse.innerHTML = 'Sending...'
+
+        // Create the AJAX request
+        var xhr = new XMLHttpRequest();
+        xhr.open(form.method, formURL, true);
+        xhr.setRequestHeader('Accept', 'application/json; charset=utf-8');
+        xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+
+        // Send the collected data as JSON
+        xhr.send(JSON.stringify(data));
+
+        xhr.onloadend = response => {
+          if (response.target.status === 200) {
+            form.reset();
+            submitResponse.innerHTML = 'Form submitted. Success!';
+          } else {
+            submitResponse.innerHTML = 'Error! Please try again.';
+            console.error(JSON.parse(response));
+          }
+        };
+      };
+    })();
+  </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
