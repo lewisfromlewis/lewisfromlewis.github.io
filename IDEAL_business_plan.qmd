@@ -1,0 +1,154 @@
+---
+title: "Business Plan for IDEAL Training"
+author: "Lewis Campbell"
+format: html
+editor: source
+---
+
+# Executive Summary 
+
+A proposal to make teaching advanced skills related to clinical ultrasonology easier, more secure, and more satisfying for teachers and learners.
+
+# Company Description
+
+We are a consortium of experts in medical education, research and training. We develop and deliver both courses and tools for lifelong learning, in response to the professional needs of those we train. This company gives us the freedom to foster a community of excellence through courses, longitudinal learning, systems thinking, and content creation. Safe in the knowledge that we can lavish our own care and attention on this work, and make it available to all partners without Intellectual Property restriction, we help partners in health services, higher education, and research. We are committed to supporting marginalised learners with accessible training for a diverse audience.
+
+# Market analysis
+
+## Medical education outline
+
+Medical education is a complex ecosystem. At its spine are courses and assessments regulated by government directly or by appointed regulators, leading to professional recognition and access to an exclusive community of practice. In fulfilling the requirements of such courses, certain specific courses are mandated, which may each be delivered by monopoly, franchise, or by certification of capable providers. Other courses are optional but are pre-approved for use in satisfying certain requirements, while others are supplemental or explanatory, and have no official standing. This is shown in diagram A.
+
+## Courses
+
+Courses are attractive to produce and to provide. They require an initial investment of time in preparation, and often in study or even research to develop the outline and materials, but this can be done at convenient times without impact on other work and so is highly suited to part time, private, or additional hours. The initial work may be extensive, and physical resources may be required, but a product is essentially ready for delivery at the completion of this stage. A time and period of delivery can then be organised for when it suits the providers. Choices can be made about what is required to deliver the course:
+
+-   learner selection
+
+-   required exposure and engagement of each learner
+
+-   level of topic knowledge required to deliver the course as faculty
+
+-   required level of concordance with the aims and values of the faculty
+
+-   standards expected of learners on completion
+
+-   assessment methods
+
+The entire process can be managed effectively without the managers requiring any topic specific knowledge. A price for each course can be set based on the resources required, their rarity, market conditions, and the need for profit. The market conditions are distorted by partial, and partially obscure, financial support for certain courses due to academic or personal relationships, further explored below. For these reasons, the market is absolutely rammed with courses, without any way to assess their quality. For reasons outlined below, many courses struggle to ensure quality, standardisation, longevity, and penetration, even after broad acceptance. There is an opportunity to target several of these features.
+
+## Programs
+
+There is a recognised place for longitudinal learning using lower intensity repeated encounters\[ref?\]. These programs combine a few elements:
+
+-   observation
+-   supervised practice
+-   entrustment with activities
+-   reflection and
+-   assessment
+
+among other program-specific elements.
+
+## Apprenticeship
+
+The apprenticeship model is one such longitudinal process, and is still the paradigm for much professional education. The underlying principle is that an expert assesses an apprentice in the path to mastery. Some elements may be added to the path, such as completing a required number of procedures under observation and independently. Some processes may prepare the apprentice, such as preparatory courses or assessments. These don't interfere with the basic requirements of an expert taking responsibility for the progress of an apprentice.
+
+There are limits on how many apprentices an expert can train at one time. This model can be labour intensive on the expert, and if the relationship is not perfect, it can fail to provide adequate training. The option then is to fail apprentices, or to accept lower quality journeymen: neither is acceptable in the medical education setting.
+
+## Certification
+
+In distinction to apprenticeship is the certification model. A minimum process standard is clearly defined and able to be met. Assessment of performance against that standard is more or less automated, with actions against criteria that can be graded by those who are not able to meet those criteria themselves. This has been used for simple skills or tasks to a minimum standard. The downside is that the model can then be used in inappropriate situations, limiting all teaching to tasks that can be tested in this way, and losing much of the subtlety and nuance of a well functioning apprenticeship model. Recently, however, frameworks have been used which explicitly model the pathway to mastery using the certification model.
+
+To some degree, even mastery by this model uses categorical requirements (the learner has or has not done this, the learner has done it to this degree of success). The model can be extended by the addition of higher order processes, such as reflection and deliberate practice. Those who are not themselves experts can then progress through the pathway, or help others through the pathway. Even if experts must perform some tasks, at least the learners can be made ready for assessment in a sustainable system, or made ready to understand the importance of both experience and experiential learning contextualised by experts.
+
+# Products and services
+
+Products and services to support numerical or more complex requirements are often absent, insecure, inaccessible by learners or faculty, or unreliable. There are several qualifications in echocardiology, for example, with onerous numeric and technical requirements, and complex and obscure territories of acceptance, yet no easy structure for recording progress against most of these.
+
+## IDEAL
+
+Our minimum viable product is the currently delivered Introductory Darwin Echo, Abdomen and Lungs course, IDEAL. This incorporates material on Basic Echocardiology for Life Support / Rapid Assessment by Cardiac Echo, Focused Abdominal Sonology in Trauma and Critical Care Lung Sonology. This is derived from material made freely available on a not for profit basis by the originator, \[someone\].
+
+The material requirements are significant for this course. Pre-course material is provided openly online.
+
+Over two days, one day of the material is lectures and would also be suited to online or asynchronous delivery, but the remaining time is small group teaching with one expert to 3-8 learners, each group requiring an advanced clinical ultrasound machine.
+
+## IDEALLY
+
+IDEAL Long Years is the foundation reason for setting up a company structure. A decentralised, secure, accessible and perpetual store for the requirements of each existing echo course, able to produce documentation in the required format, will aid learners and can be delivered for a low cost on a subscription basis. This store can provide
+
+-   a storage of every scan with dates and times and topics, populated by drop down menus, or with enough coding could populate from the structured fields obtained from DICOM
+-   formatted reports
+
+Other capabilities are likely to ensure longevity and can be provided with minimal ongoing cost after initial setup, including access to one's own data for future records, and to deidentified data of other users and their studies for research and quality improvement.
+
+# Future planning 
+
+With a clean, transparent initial architecture following best practice for both governance and technical aspects, we have clear pathways to expland. 
+
+## Bayesian Progress Bars 
+
+Given enough learners uploading enough details of their scans, it is simple to use deidentified information to give them progress bars against both the prescribed criteria but also their peers. Using the same data and a conceptually simple Bayesian model supplemented by graph theory, learners could also be provided with a likely time to achieving their learning aims, predictors of success in various qualifications, and advice on how to change their strategy to match those who have succeeded before them. 
+
+## Continuing education 
+
+Continuing education is heavy with opinion and often easier to achieve that initial qualification. Some high profile courses are examined along lines similar to their initial qualifications. Some of these have arisen in defence of lucrative practice barriers, some out of simple desire to ensure currency and excellence. Few have any evidence behind the method, difficulty, or frequency of their assessment. With a similar model to initial mastery, it would be straightforward to assess continuing learners and provide transparent, individualised guidance on process. 
+
+## Image curation 
+
+Image storage and reformatting using the cloud, over a secure media server, is straightforward. Identifiable clinical images served in such a way, however, would need to be provided with consent, permission from the institution, and an ability to withdraw consent later, all under the protection of contracts to provide such services. We are unlikely to realise either learning or business benefits from attempting this, despite the clear clinical need. 
+
+Deidentified images are more likely to be accessible, but to act as a store for these, we would need to have some means ot assuring that they were in fact deidentified. 
+
+A more difficult task, but one suited to the containerised, security-prioritised architecture of this organisation, is storage and parsing of images. At the simplest layer, we could provide a means to ensure that all images are both anonymised and immediately retrievable and viewable. This is currently quite costly using proprietary products, or requires specialised programming using open source products. If a business case exists to implement these simple actions, then the ability to analyse and recommend to learners or continuing experts would rise exponentially. 
+
+Image analysis could be easily performed to give either basic predictions of how close a person is to their target, or actionable advice. The former could be accomplished using simplistic unsupervised machine learning or even principal component analysis, with some human advice for those who are far from their learning target. The latter would use mechanistic and interpretable models which can point to features of the learner's studies which are unlike those of experts, and in time even give advice on how to improve. These facilities exist, but not in a way that is individualised for the learning stage, and can seem just as unreachable as hearing an expert saying "I just did it right". 
+
+# Marketing plan
+
+There exists a large, existing social media community devoted to medical education. Many not for profit or even for profit entities provide free components and leverage the reach of #FOAMED (Free Online Medical Education), and this is realistic for many of the proposed components  within IDEAL. Outside of that social media topic, there are many avenues for free advertising of carefully selected educational components which meet broad criteria, in collaboration with other providers or accreditation bodies.
+
+Being a not for profit with a commitment to the community allows partnership with educational providers and employers such as CICM, ANZICS, ASUM, Universities, and health services, without substantial alteration of the educational goals or delivery methods.
+
+# Logistics and operations
+
+While we deliver local content we can organise simply, using only the trainers. On expanding outside of Darwin trainees we will need to consider logistics more carefully. A manager will be required at around 4 courses per year, requiring roughly 4 hours per week. Travel will add a further management requirement. 
+
+If we require machine hire or purchase a further several hours per month will be required to arrange purchasing and compliance. 
+
+IT support will be required for the build and maintenance. This is likely to require both purchased managed services and a regular commitment to interface with those services, which will require some hours purchased from a skilled person.
+
+
+# Financial plan
+
+There are several potential stages. The first stage is the current situation, with increased governance and utilisation of funds.
+
+-   Four to six one-day introductory courses per year ("BELS"), with 8-24 learners, for \$100 each session. Advertising and administration are word off mouth or local posters, pro bono from the faculty. Venue and machine lending is currently pro bono from the units whose workers are being trained, but at worst would cost market rates for external, revenue generating courses. This would, firstly, destroy revenue, and secondly, require an increase in frequency and cost. A clear perception of not for profit status is therefore very useful for future activities.
+
+| Item                                              | Cost      | Revenue    | Year    |
+|------------------------|----------------|----------------|----------------|
+| BELS (current)                                    | zero      | 100\*12\*4 | \$4800  |
+| BELS (independent)                                | \$8000\*6 | 500\*16\*6 | \$0     |
+| BELS (venues negotiated, machine hire subsidised) | \$2000\*6 | 500\*12\*6 | \$24000 |
+
+: Current format
+
+A further stage involves the addition of longitudinal logbook keeping.
+
+-   Initial setup and architecture specification, purchasing of 1-5 years' cloud resources, and minimal maintenance arrangements may cost in the region of \$5000
+
+-   A \$50 membership fee at least initially, included in the course cost, will provide governance over the use of the resource, with expected behaviour and future modifications able to be suggested at AGMs. This could also be made a period membership, and may fund ongoing activities.
+
+Once these stages are implemented, further courses are simply added into the architecture with individual business cases. To start with an example which often fails to generate revenue and adds considerable stress to the training organisation, an advanced echo program with an initial set of lectures and tests provided online, 2 day attendance, and logbook with reminders and tips, may take 80 hours of setup and break even over three to four years, or over one year with a more technology enabled, less intensive model.
+
+-   Example advanced echo course, establishment cost 80 hours (16000)
+
+    | Item                                                   | Cost per course | Revenue per course | Net per course |
+    |---------------------------|---------------|---------------|---------------|
+    | Lectures and offline testing                           | 5\*20           | 100\*20            | 1900           |
+    | 2 day in-person course                                 | 2000            | 1000\*20           | 18000          |
+    | 2 day in-person with live scanning and outside experts | 10000           | 1500\*10           | 5000           |
+
+    : Advanced echo example
+
+Payments by bank transfer. Should we use an online marketplaces, such as zip, square, etc. Which is best?
